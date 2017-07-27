@@ -1,0 +1,40 @@
+{
+  "name": "@doughtnerd/simple-mailer",
+  "version": "0.0.1",
+  "description": "Simplifies sending an email with NodeMailer",
+  "main": "index.js",
+  "engines": {
+    "node": ">=6.11.1"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Doughtnerd/simple-mailer.git"
+  },
+  "keywords": [
+    "simple",
+    "node",
+    "mail",
+    "nodemailer",
+    "email"
+  ],
+  "author": "Christopher Carlson <doughtnerd@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Doughtnerd/simple-mailer/issues"
+  },
+  "homepage": "https://github.com/Doughtnerd/simple-mailer#readme",
+  "devDependencies": {
+    "chai": "4.1.0",
+    "chai-as-promised": "7.1.1",
+    "coveralls": "2.13.1",
+    "istanbul": "0.4.5",
+    "mocha": "3.4.2"
+  },
+  "dependencies": {
+    "nodemailer": "4.0.1"
+  }
+}
